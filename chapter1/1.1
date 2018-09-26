@@ -1,0 +1,12 @@
+## Reproducing of the graphs for Polynomial Curve fitting
+
+## Creating a function for sin(2*pi*x)
+f <- function(x){sin(2*pi*x)}
+## Creating input variable for the function
+Xn <- seq(0,1, 0.001)
+## making a dataframe for the two sets of data above
+data_sinx <- data.frame(Xn, tn = f(Xn))
+## setting  a seed to avoid changing random samples from rnorm()
+set.seed(589)
+## space the training data set out on the range[0,1]
+X_training <- seq(0,1,.1)
