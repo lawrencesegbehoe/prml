@@ -1,4 +1,3 @@
-# Rcode-PRML
-Bishop's PRML 
+# prml - Pattern Recognition and Machine Learning Book
 
-Some implementation of concepts in Pattern Recognition and Machine Learning by Bishop (2006) in R
+Some implementation of Pattern Recognition and Machine Learning by Bishop (2006) in R
